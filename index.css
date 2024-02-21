@@ -1,0 +1,40 @@
+#studentForm {
+    font-size: 22px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    padding: 8px;
+    font-size: 17px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+td{
+    text-align: left;
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+#addStudentBtn {
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#addStudentBtn:hover{
+    background-color: cyan;
+}
+
+#updateStudentBtn {
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#updateStudentBtn:hover{
+    background-color: cyan;
+}

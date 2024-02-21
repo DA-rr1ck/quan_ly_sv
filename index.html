@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý thông tin sinh viên</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>Quản lý thông tin sinh viên</h1>
+
+    <form id="studentForm">
+        <label for="studentId">Mã SV:</label><br>
+        <input type="text" id="studentId" name="studentId" required><br>
+        <label for="studentName">Họ tên:</label><br>
+        <input type="text" id="studentName" name="studentName" required><br>
+        <label for="dob">DOB:</label><br>
+        <input type="date" id="dob" name="dob" required><br>
+        <label for="class">Lớp học:</label><br>
+        <input type="text" id="class" name="class" required><br>
+        <label for="gpa">Điểm GPA:</label><br>
+        <input type="number" id="gpa" name="gpa" min="0" max="4" step="0.01" required><br><br>
+        
+        <button type="submit" id="addStudentBtn">Thêm sinh viên</button>
+        <button type="button" id="updateStudentBtn">Cập nhật sinh viên</button>
+    </form>
+
+    <h2>Danh sách sinh viên</h2>
+
+    <table id="studentTable">
+        <tr>
+            <th>Mã SV</th>
+            <th>Họ tên</th>
+            <th>DOB</th>
+            <th>Lớp học</th>
+            <th>Điểm GPA</th>
+        </tr>
+    </table>
+
+    <script src="index.js"></script>
+</body>
+</html>
